@@ -1,0 +1,54 @@
+.content_div{
+
+    font-family: serif;
+
+  }
+
+  .image{
+   border-radius: 30px;
+   display: block;
+   max-width: 100%;
+   height: auto;
+   margin: 0 auto;
+  }
+
+  .content2{
+   text-align: center;
+   background-color: orangered;
+   border-radius: 4px;
+   padding: 1px;
+
+  }
+ a {
+   color: black;
+   text-decoration: none;
+
+
+ }
+ a:hover{
+   text-decoration: none;
+   color: black;
+
+ }
+
+ #content_cat {
+
+   transition: transform 0.3s ease;
+ }
+
+ #content_cat:hover {
+   transform: scale(1.1);
+ }
+
+
+ #cat_h2{
+   font-size: 40px;
+ }
+
+ #cat_h3{
+
+   color: rgb(0, 0, 0);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+ }
+

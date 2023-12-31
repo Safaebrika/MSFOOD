@@ -1,0 +1,69 @@
+*{
+    font-family: serif;
+}
+
+
+.category-container {
+    display: flex;
+    overflow-x: auto;
+    /* Optional: Adjust the height and other styles as needed */
+  }
+
+  #content_cat {
+
+    transition: transform 0.3s ease;
+  }
+
+  #content_cat:hover {
+    transform: scale(1.1);
+  }
+.menu-color{
+    color: orangered;
+    margin-left: 200px;
+}
+
+hr{
+    border: 2px solid orangered;
+    border-radius: 50%;
+    width: 500px !important;
+}
+.text{
+    color: rgb(239, 227, 1);
+}
+.number-input {
+    display: flex;
+    align-items: center;
+  }
+
+  .number-input input[type="number"] {
+    width: 80px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .number-input button {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+
+  .number-input button:hover {
+    background-color: #e6e6e6;
+  }
+
+
+#btnCart{
+    background-color: orangered !important;
+    color: white;
+
+
+}
+
+.cc{
+    margin-top: 80px;
+}

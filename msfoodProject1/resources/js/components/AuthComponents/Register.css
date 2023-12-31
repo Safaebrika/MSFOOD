@@ -1,0 +1,157 @@
+*{
+    font-size: large;
+  font-family: serif;
+}
+.main{
+    background-color: white;
+
+}
+.email{
+     height: 35px;
+      width: 35px;
+      position: absolute;
+      padding: 14px 0 0 25px;
+}
+.person1{
+     height: 35px;
+      width: 35px;
+      position: absolute;
+      padding: 14px 0 0 25px;
+}
+.person2{
+      height: 35px;
+      width: 35px;
+      position: absolute;
+      padding: 14px 0 0 25px;
+}
+.pass{
+    height: 40px;
+      width: 40px;
+      position: absolute;
+
+      padding-right: 20px;
+      margin-right: 20px;
+
+
+}
+.main {
+    text-align: center;
+
+    justify-content: center;
+    display: flex;
+    margin-left: 100px;
+    padding-top: 90px;
+
+    background-color: white;
+  }
+  .p{
+    margin-left: 30px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    color:rgb(44, 15, 5);
+    margin-top: 0px;
+
+}
+  .sub-main {
+    border: solid 1px rgb(201, 200, 200);
+    display: flex;
+    justify-content: center;
+    height: 600px;
+   width: 500px;
+    padding-top: 0px;
+    margin-top: 0px;
+    border-radius: 30px;
+    background-color: white;
+  }
+
+  input{
+      width: 300px;
+      height: 50px;
+      border-radius: 10px;
+      box-shadow: inset 0px 0px 25px 0px #888;
+      border: none;
+      outline: none;
+      background-color: #fff;
+  }
+
+.email{
+      height: 25px;
+      width: 25px;
+      position: absolute;
+      padding: 14px 0 0 25px;
+  }
+
+  .name{
+      padding-left: 70px;
+
+  }
+  .second-input{
+      padding-top: 20px;
+  }
+
+ .button{
+      width: 300px;
+      height: 50px;
+      border-radius: 10px;
+      background-color:orangered;
+      color: white;
+
+      border: none;
+  }
+  .login-button{
+      padding-top: 25px;
+  }
+
+  .link{
+      /* font-size: 20px; */
+      font-weight: 400;
+      text-decoration: none;
+      /* padding: 30px; */
+
+  }
+   a{
+
+    text-decoration: none;
+       color: blue;
+   }
+
+   .error
+{
+
+    color: red;
+}
+
+.hr{
+    margin-left: 50px;
+    color: rgb(228, 145, 37);
+    margin-top: 300px;
+}
+.divider {
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+  }
+  .divider::after,
+  .divider::before {
+    width: 200px;
+    content: "";
+    border: 0.5px solid rgb(162, 158, 151);
+    flex: 2;
+  }
+.icons{
+    margin-top: 20px;
+    justify-content: center;
+
+}
+img.im{
+  margin: 10px;
+}
+@media (max-width: 767px) {
+    .imm,
+    .imm {
+      display: none;
+      margin-left: 0;
+    }
+  }

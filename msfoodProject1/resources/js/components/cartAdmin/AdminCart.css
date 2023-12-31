@@ -1,0 +1,19 @@
+*{
+    font-family: serif;
+}
+thead{
+
+    color: white;
+    background-color: orangered;
+}
+
+hr{
+    border: 2px solid orangered;
+    border-radius: 50%;
+    width: 300px;
+}
+
+h1{
+    margin-left: 100px;
+    color: orangered;
+}
